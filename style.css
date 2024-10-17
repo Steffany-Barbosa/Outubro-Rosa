@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  color: #e4eef1;
+  background-color: #ff69b4;
+}
+header section {
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 5vw;
+}
+header nav {
+  width: 40%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul a {
+  color: #e4eef1;
+  font-size: 28px;
+}
+
+.part01 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  background-color: #ffd9ec;
+}
+.part01 p {
+  width: 40%;
+  font-size: 25px;
+}
+.part01 img {
+  width: 19.0104166667vw;
+}
+
+.part02 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35vh;
+  background-color: #ff69b4;
+}
+.part02 p {
+  width: 55%;
+  font-size: 25px;
+  color: #e4eef1;
+}
+.part02 img {
+  width: 25vw;
+  height: auto;
+}
+
+.part03 {
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  justify-content: space-evenly;
+  background-color: #ffd9ec;
+}
+.part03 img {
+  width: 10vw;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  color: #e4eef1;
+  background-color: #ff69b4;
+}
+footer section {
+  display: flex;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+footer img {
+  width: 3vw;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 20vh;
+    flex-direction: column;
+  }
+  header nav {
+    width: 95%;
+  }
+  header nav ul a {
+    font-size: 22px;
+  }
+  .part01 {
+    height: 80vh;
+    flex-direction: column-reverse;
+  }
+  .part01 p {
+    width: 90%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .part01 img {
+    width: 40%;
+  }
+  .part02 {
+    height: 80vh;
+    flex-direction: column;
+  }
+  .part02 p {
+    width: 90%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .part02 img {
+    width: 70%;
+  }
+  .part03 {
+    height: 30vh;
+    flex-direction: row;
+  }
+  .part03 p {
+    width: 90%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .part03 img {
+    width: 20%;
+  }
+  footer {
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+  }
+  .midias-sociais {
+    justify-content: space-evenly;
+    width: 40%;
+  }
+  .midias-sociais img {
+    width: 30%;
+    height: auto;
+  }
+  .outubro-rosa {
+    font-size: 14px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .laco {
+    width: 10%;
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
